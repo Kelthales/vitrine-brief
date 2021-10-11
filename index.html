@@ -22,6 +22,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@700&family=Lobster&display=swap" rel="stylesheet">
   <meta name="theme-color" content="#fafafa">
+  <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -50,24 +51,35 @@
     </article>
     </section>
   <section class="gallery">
-    <article id="slider">
+    <article class="carousel">
       <figure>
-        <img src="img/baby1.jpg" alt>
-        <img src="img/baby2.jpg" alt>
-        <img src="img/baby3.jpg" alt>
-        <img src="img/baby4.jpg" alt>
+        <img class="mySlides" src="img/baby1.jpg" alt>
+        <img class="mySlides" src="img/baby2.jpg" alt>
+        <img class="mySlides" src="img/baby3.jpg" alt>
+        <img class="mySlides" src="img/baby4.jpg" alt>
+        <img class="mySlides" src="img/baby5.jpg" alt>
+        <img class="mySlides" src="img/baby6.jpg" alt>
+        <img class="mySlides" src="img/baby7.jpg" alt>
+        <img class="mySlides" src="img/baby8.jpg" alt>
       </figure>
+      <nav>
+        <button class="nav prev">Prev</button>
+        <button class="nav next">Next</button>
+      </nav>
     </article>
   </section>
   <section class="prices">
     <article>
       <div class="solo">
+        <img src="#" alt="">
         <h1>Solo</h1>
       </div>
       <div class="group">
+        <img src="#" alt="">
         <h1>Group</h1>
       </div>
       <div class="family">
+        <img src="#" alt="">
         <h1>Family</h1>
       </div>
     </article>
@@ -88,7 +100,25 @@
       </div>
     </article>
   </section>
-
+  <article class="footer-clean">
+    <footer>
+        <article class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 item">
+                    <h3>Info</h3>
+                    <ul>
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Team</a></li>
+                        <li><a href="#">Legacy</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                    <p class="copyright">Benjamin Buniet © 2021</p>
+                </div>
+            </div>
+        </article>
+    </footer>
+  </article>
 
 
 
