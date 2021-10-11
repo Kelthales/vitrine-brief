@@ -76,16 +76,29 @@ body {
     padding: 5px 10px;
 }
 /*Prices*/
-.prices, .solo, .group, .family {
-    flex: 0 1 50%;
-    display: inline-flex;
-    flex-flow: column wrap;
+.solo, .group, .family{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+}
+.prices{
+width:90%;
+margin: auto;
+height: auto;
+display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 .prices img {
-    width: 25%;
-    height: 25%;
+    width: 90%;
+    height: auto;
     border-radius: 10%;
     box-shadow: 0px 0px 15px #555;
+    margin-bottom: 10px;
 }
